@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>CODSOC</title>
+
+    <link rel="icon" href="/static/favicon.ico" type="image/ico">
+    <link rel="stylesheet" href="/static/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="static/jquery/dist/jquery.min.js"></script>
+    <script src="static/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="static/style.css"></script>
+
+</head>
+<body>
+    {% include 'nav.html' %}
+    <noscript>
+      <strong>We're sorry but CODSOC website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    {% block content %}
+    {% endblock %}
+    {% include 'footer.html' %}
+</body>
+</html>
