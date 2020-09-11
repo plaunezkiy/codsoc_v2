@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-dashboard
-learn
-some stuff
+{% for module in modules %}
+    {{ module.title }}
+{% endfor %}
 {% endblock%}
